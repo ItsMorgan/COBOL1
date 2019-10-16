@@ -46,7 +46,7 @@ This division contains the FILE SECTION and WORKING-STORAGE SECTION
       The Output Area of the WORKING-STORAGE section contains heading titles and the
       components of each heading. 
 
-               HEADING-ONE contains the date, the author's initials, the company name and the page number, each                                 separated by spaces. HEADING-TWO contains the title of the report surrounded by spaces. HEADING-THREE and HEADING-FOUR 
+               HEADING-ONE contains the date, the author's initials, the company name and the page number, each                               separated by spaces. HEADING-TWO contains the title of the report surrounded by spaces. HEADING-THREE and HEADING-FOUR 
       contain additional title names separated by spaces. The DETAIL-LINE and TOTAL-LINE contain the names of the 
       output variables, their lengths and the formats of the final calculated total salaries.
                
