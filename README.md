@@ -54,12 +54,13 @@ This division contains the FILE SECTION and WORKING-STORAGE SECTION
                
 PROCEDURE DIVISION
 
-      This division includes the CONTROL-MODULE which tells the program to perform upcoming routines, HSKPING-ROUTINE 
-      which opens the input and output files, accepts the date from HEADING-ONE and performs the next routine,
-      HEADING-ROUTINE which takes each heading and writes it to the output file with proper spacing, PROCESS-EMPLOYEE-ROUTINE
-      which tells the programa to read the input file until there is no more data to read and to perform the next routine,
-      TOTAL-SAL-ROUTINE moves the input values to the output file and performs the next routine, WRITE-A-LINE
-      writes the output report after advancing proper spacing, and EOF-ROUTINE moves the total fields to the total lines,
-      moves the correct output to the output file, closes the input and output files, and stops the program from running 
-      with STOP RUN.
+      This division includes the CONTROL-MODULE which tells the program to perform upcoming routines,
+      HSKPING-ROUTINE which opens the input and output files, accepts the date from HEADING-ONE
+      and performs the next routine,HEADING-ROUTINE which takes each heading and writes it to the output 
+      file with proper spacing, PROCESS-EMPLOYEE-ROUTINE which tells the programa to read the input file
+      until there is no more data to read and to perform the next routine, TOTAL-SAL-ROUTINE moves the 
+      input values to the output file and performs the next routine, WRITE-A-LINE writes the output report 
+      after advancing proper spacing, and EOF-ROUTINE moves the total fields to the total lines,
+      moves the correct output to the output file, closes the input and output files, and stops the
+      program from running with STOP RUN.
                
